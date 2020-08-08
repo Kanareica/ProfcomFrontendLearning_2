@@ -1,0 +1,8 @@
+var products = ["Choo Choo Chocolate", "Icy Mint", "Cake Batter", "Bubblegum"];
+var last = products.length - 1;
+var recent = products[last];
+
+По заданию нужно вывести добавленный в массив последний элемент
+Math.floor - отбросить дробную часть\округление вниз
+
+массивы по сути являются объектами, но работать можно как с массивами на Си
