@@ -1,0 +1,10 @@
+h2 "Leaders"
+table
+    thead
+        tr
+            th "Email"
+            th "Scorea"
+    tbody
+        each user in users
+            th #{user.email}
+            th #{user.score}
