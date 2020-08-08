@@ -1,0 +1,22 @@
+Горизонтальное и вертикальное меню
+Можно подменять ту часть изображения, которую видим после обрезки
+span.button2{
+	position: relative;
+	background-position: left top;
+	width: 25px;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	display: inline-block;
+}
+span.button2:hover{
+	background-position: left top -34px;
+	cursor: pointer;
+	background-origin: content-box;
+}
+
+Чтобы ссылка срабатывала от нажатия на фон, нужно добавить display: block
+
+Сделать меню горизонтальным:
+display: inline у элементов списка
+у самой ссылки - display: inline-block
