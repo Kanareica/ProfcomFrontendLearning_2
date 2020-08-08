@@ -1,0 +1,15 @@
+p {
+    background: blueviolet;
+    color: aqua;
+}
+h1 {
+    text-align: end !important;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    color: purple;
+}
+body.fon {
+    background: darkgray;
+}
