@@ -1,0 +1,21 @@
+img[title="Grafic 1 for the article"]{
+    width: 600px;
+    height: 600px;
+}
+img[title="Grafic 2 for the article"]{
+    width: 720px;
+    height: auto;
+}
+img[title="Grafic 3 for the article"]{
+    width: 1400px;
+    height: auto;
+    border: steelblue;
+    border-width: 5px;
+}
+a[href="https://vk.com/"]{
+    color: red;
+    background: steelblue;
+}
+a[href="https://www.artlebedev.ru/decoder/advanced/"]{
+    color: green;
+}
