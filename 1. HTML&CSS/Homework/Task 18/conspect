@@ -1,0 +1,6 @@
+Линейный градиент
+background-image: linear-gradient(<to ...>/<...deg>, <first color>, <second color>)
+Если задать доп. свойство transparent, то будет видно второй, третий и т.д. градиенты
+
+Радиальный градиент
+background-image: radial-gradient(<not necessary, circle>/<not necessary, circle at <> <>>, <center color>, <radial color>)
