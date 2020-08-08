@@ -1,0 +1,41 @@
+a:link {
+    color: blue;
+    background: darkgray;
+}
+a:visited {
+    color: aqua;
+    background: blueviolet;
+}
+a:hover {
+    color: black;
+    background: aqua;
+}
+a:active {
+    color: gold;
+    background: darkgreen;
+}
+h1:first-letter{
+    font-size: 24px;
+    color: red;
+}
+h2:first-letter{
+    font-size: 24px;
+    color: rebeccapurple;
+}
+h3:first-letter{
+    font-size: 24px;
+    color: steelblue;
+}
+p.textPart:first-line {
+    font-style: italic;
+}
+p.little:before {
+    content: "@";
+}
+p.little:after {
+    content: "@";
+}
+::selection {
+    background: black;
+    color: lightgrey;
+}
