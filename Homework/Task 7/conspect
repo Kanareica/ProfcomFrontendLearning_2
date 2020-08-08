@@ -1,0 +1,6 @@
+function в JS
+function <name>(var) {
+    code;
+    return ...; - не обязателен
+}
+вывод в консоль console.log(...);
