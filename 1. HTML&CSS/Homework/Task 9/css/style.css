@@ -1,0 +1,50 @@
+body {
+    background: rgba(50,50,50,0.4);
+    padding: 0 20px 20px 20px;
+    margin: 0 20px 20px 5%;
+}
+article {
+    max-width: 700px;
+    font-max-size: 60px;
+    margin: 0 auto;
+}
+p {
+    color: rgb(255, 255, 0);
+    font-size: 12px;
+    font-family: "Dancing Script", Arial, Helvetics, sans-serif;
+}
+h1, h2, h3 {
+    font-size: 30px;
+    color: rgb(175,50,200);
+    font-family: "Dancing Script", Helvetics, serif;
+    border-bottom: 2px solid rgb(255,0,0);
+    padding-top: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+#logo {
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+    color: rgba(255,255,255,1);
+    font-style: italic;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: rgb(150,208,255);
+    border-radius: 0 0 20px 20px;
+}
+.note {
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 0.5em;
+    border: 2px solid mediumvioletred;
+    background: #ff41d3;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
