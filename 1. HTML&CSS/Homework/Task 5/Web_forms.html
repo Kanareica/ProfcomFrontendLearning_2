@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB forms</title>
+</head>
+<body>
+<form action="/" method="">
+    Войти <input type="password" name="password" maxlength="32" value="Пароль">
+    <input type="text" name="login" maxlength="64" placeholder="Логин"><br>
+
+    <br>
+    Ваш пол<br>
+    <input id="genderM" type="radio" name="chsGender" value="M" checked><label for="genderM">Муж.</label><br>
+    <input id="genderF" type="radio" name="chsGender" value="F"><label for="genderF">Жен.</label><br>
+
+    <br>
+    Ваша профессия<br>
+    <input id="fstProf" type="checkbox" name="choseProfession" value="fstProf" checked><label for="fstProf">Cтроитель</label><br>
+    <input id="scdProf" type="checkbox" name="choseProfession" value="scdProf" checked><label for="scdProf">Военный</label><br>
+    <input id="thdProf" type="checkbox" name="choseProfession" value="thdProf" checked><label for="thdProf">Фермер</label><br>
+
+    <br>
+    Напишите несколько слов о себе<br>
+    <textarea name="biografyText" cols="64" rows="3"></textarea><br>
+
+    <br>
+    <input type="submit" name="sub" value="Отправить">
+    <input type="reset" name="res" value="Сбросить">
+</form>
+</body>
+</html>
