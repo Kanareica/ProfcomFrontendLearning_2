@@ -1,0 +1,42 @@
+body{
+    padding: 20px;
+    font-family: "Dancing Script", Arial, Helvetics, sans-serif;
+}
+div{
+    min-height: 33.3%;
+    max-height: 60%;
+    overflow: auto;
+    float: left;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 10px;
+}
+div.area_1{
+    min-height: 10%;
+    text-align: center;
+    width: 100%;
+}
+div.area_2{
+    min-height: 60%;
+    width: 65%;
+}
+div.area_3{
+    min-height: 60%;
+    width: 35%;
+}
+div.area_4{
+    min-height: 30%;
+    width: 33.3%;
+}
+div.area_5{
+    min-height: 30%;
+    width: 33.3%;
+}
+div.area_6{
+    min-height: 30%;
+    width: 33.3%;
+}
+div.area_7{
+    min-height: 30%;
+    width: 100%;
+}
