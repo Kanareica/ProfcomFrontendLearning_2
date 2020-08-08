@@ -1,0 +1,8 @@
+switch в JS
+формат команды:
+switch(variable+[условия\действия]) {
+    case <>: list of commands;
+        break; - иногда можно опускать
+    ...
+    default: list of commands;
+}
